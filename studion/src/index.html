@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav class="navbar">
+    <div class="container navbar__container">
         <h1 class="logo-studion">
             Studi<span class="copy--primary">on</span>
             <span class="logo-studion__subtitle">Eventos</span>
@@ -26,6 +27,7 @@
             <li><a href="https://www.w3schools.com/">Contato</a>
             </li>
         </ul>
+    </div>
     </nav>
 
     <header>
@@ -43,21 +45,36 @@
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li><h3>+ DE 500 </h3>eventos realizados</li>
-                <li><h3>+ DE 1.000.000 </h3>ingresos vendidos</li>
-                <li><h3>+ DE 300 </h3>empresas Atendidas</li>
+        <section id="counter">
+            <ul class="container counter__container">
+                <li>
+                    <h3>
+                        + DE 500 
+                        <small>eventos realizados</small>
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                        + DE 1.000.000
+                        <small>ingresos vendidos</small>
+                     </h3>
+                </li>
+                <li>
+                    <h3>
+                        + DE 300 
+                        <small>empresas Atendidas</small>
+                    </h3>
+                </li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" alt="">
-                <h6> FAZEMOS SEU EVENTO ACONTECER</h6>
+        <section class="container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg" alt="studion institutional">
+            <div class="institutional__copy">
+                <h6> fazemos o seu evento acantecer</h6>
                 <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea maxime adipisci itaque libero, asperiores quas quos tempora id sequi tenetur ut. Eveniet obcaecati quod iure fugiat culpa? Quibusdam, veniam eveniet?</p>
-                <button>SAIBA MAIS</button>
+                <button class="btn bnt--institutional">SAIBA MAIS</button>
             </div>
         </section>
 
